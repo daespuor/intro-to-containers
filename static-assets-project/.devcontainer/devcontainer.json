@@ -1,0 +1,16 @@
+{
+    "name": "Frontend-Masters",
+    "dockerFile": "Dockerfile",
+    "appPort": [3000],
+    "runArgs": ["-u","node"],
+    "settings": {
+        "workbench.colorTheme": "Monokai",
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "postCreateCommand": "npm install && npm i node-sass",
+    "extensions": [
+        "monokai.theme-monokai-pro-vscode",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+    ]
+}

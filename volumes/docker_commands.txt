@@ -1,0 +1,1 @@
+docker run --env DATA_PATH=/data/names.txt --mount type=volume,source=increment_auto,target=/data increment
